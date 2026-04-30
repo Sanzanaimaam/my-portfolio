@@ -11,7 +11,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0px 200px;
 }
 .bold-A{
     color:#FD6E0A;
@@ -48,6 +48,10 @@ nav ul{
     border: none;
 
 }
+.background-bg{
+    background-color: #FFF8F3;
+
+}
 .header{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
@@ -74,4 +78,39 @@ nav ul{
 }
 .banner-content{
     max-width: 580px;
+}
+.banner-description{
+    color: #757575;
+    font-size: 18px;
+}
+
+/* main */
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-des{
+    font-weight: 600px;
 }
